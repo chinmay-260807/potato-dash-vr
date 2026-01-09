@@ -18,6 +18,13 @@
         .potato-gradient {
             background: linear-gradient(135deg, #e3b778 0%, #c19a6b 100%);
         }
+        @keyframes subtle-float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-subtle-float {
+            animation: subtle-float 3s ease-in-out infinite;
+        }
     </style>
 <script type="importmap">
 {
