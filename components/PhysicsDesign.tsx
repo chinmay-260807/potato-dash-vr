@@ -56,7 +56,7 @@ const PhysicsDesign: React.FC = () => {
             </div>
             <div className="p-4 border border-amber-100 rounded-2xl">
               <h4 className="font-bold text-amber-800 mb-1">Stumble Recovery</h4>
-              <p className="text-sm text-slate-600">When tilt angle > 45°, blend into "Flail" animation state until Upward Vector aligns with Global Up.</p>
+              <p className="text-sm text-slate-600">When tilt angle &gt; 45°, blend into "Flail" animation state until Upward Vector aligns with Global Up.</p>
             </div>
           </div>
         </div>
